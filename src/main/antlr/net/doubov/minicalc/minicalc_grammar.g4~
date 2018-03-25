@@ -1,3 +1,7 @@
+//@header{
+//	package net.doubov.minicalc
+//}
+
 lexer grammar MiniCalcLexer;
 
 channels { WHITESPACE }
@@ -5,6 +9,13 @@ channels { WHITESPACE }
 // Whitespace
 NEWLINE									: '\r\n' | '\r' | '\n' ;
 WS											: [\t ]+ -> channel(WHITESPACE) ;
+
+
+
+
+
+
+
 
 // Keywords
 INPUT										: 'input' ;
@@ -27,6 +38,12 @@ DIVISION								: '/' ;
 ASSIGN									: '=' ;
 LPAREN									: '(' ;
 RPAREN									: ')' ;
+
+
+
+
+
+
 
 // Identifiers
 ID											: [_]*[a-z]A-Za-z0-9_]* ;
