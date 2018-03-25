@@ -1,0 +1,10 @@
+*.class
+
+bin/
+gen/
+
+*.iml
+.idea
+.gradle
+build/
+

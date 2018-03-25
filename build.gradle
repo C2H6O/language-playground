@@ -52,6 +52,7 @@ sourceSets {
 	}
 }
 
+compileTestKotlin.source sourceSets.generated.java, sourceSets.main.java, sourceSets.main.kotlin
 compileJava.source sourceSets.generated.java, sourceSets.main.java
 compileKotlin.source sourceSets.generated.java, sourceSets.main.java, sourceSets.main.kotlin
 
