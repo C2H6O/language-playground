@@ -1,6 +1,3 @@
-package examples
-
-import net.doubov.minicalc.MiniCalcLexer
 import org.antlr.v4.runtime.ANTLRInputStream
 import org.antlr.v4.runtime.Token
 import java.io.FileInputStream
@@ -24,7 +21,7 @@ fun main(args: Array<String>) {
         val typeName = MiniCalcLexer.VOCABULARY.getSymbolicName(token.type)
         val text = token.text
                 .replace("\n", "\\n")
-                .replace("\r","\\r")
+                .replace("\r", "\\r")
                 .replace("\t", "\\t")
         println("L${token.line}(${token.startIndex}-${token.stopIndex}) $typeName '$text'")
     } while (token?.type != -1)
