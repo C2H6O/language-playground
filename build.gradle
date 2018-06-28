@@ -1,6 +1,6 @@
 buildscript {
 	// the version of Kotlin
-	ext.kotlin_version = '1.2.31'
+	ext.kotlin_version = '1.2.50'
 
 	repositories {
 		mavenCentral()
@@ -42,7 +42,7 @@ dependencies {
 generateGrammarSource {
 	maxHeapSize = "64m"
 	arguments += ['-package', 'net.doubov.minicalc']
-	outputDirectory = new File("generated-src/main/antlr ".toString())
+	outputDirectory = new File("generated-src/main/antlr")
 }
 
 compileJava.dependsOn generateGrammarSource

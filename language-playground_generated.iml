@@ -27,17 +27,9 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/out/generated/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/build/generated-src/antlr/generated">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated-src/antlr/generated" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/generated-src/antlr">
-      <sourceFolder url="file://$MODULE_DIR$/generated-src/antlr/main" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/src/generated">
-      <sourceFolder url="file://$MODULE_DIR$/src/generated/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/generated/kotlin" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/generated/resources" type="java-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/build/generated-src/antlr/generated" />
+    <content url="file://$MODULE_DIR$/generated-src/antlr" />
+    <content url="file://$MODULE_DIR$/src/generated" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
