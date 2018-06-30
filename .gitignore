@@ -4,6 +4,7 @@ bin/
 gen/
 
 *.iml
+*.iws
 .idea/
 .gradle/
 build/
