@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e14cac0-8d95-409f-b708-b3ad03c13ed2" name="Default" comment="" />
+    <list default="true" id="8e14cac0-8d95-409f-b708-b3ad03c13ed2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pragmatic_lightweight_languages.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic_lightweight_languages.iws" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -101,11 +109,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="MiniCalcLexerTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MiniCalcLexerTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -113,8 +133,8 @@
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/examples/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="198">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="e#18#196#0" expanded="true" />
               </folding>
@@ -122,51 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MiniCalcLexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/MiniCalcLexer.java">
+      <file leaf-file-name="rectangle.mc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/rectangle.mc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#390#459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiniCalcLexer.tokens" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/MiniCalcLexer.tokens">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="SMLexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/SMLexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiniCalcLexerTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MiniCalcLexerTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="MiniCalcLexer.g4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/MiniCalcLexer.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="54">
+              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -644,8 +624,9 @@
         <option value="$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/SMLexer.g4" />
         <option value="$PROJECT_DIR$/src/main/java/examples/Main.kt" />
         <option value="$PROJECT_DIR$/src/test/java/MiniCalcLexerTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/MiniCalcLexer.g4" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/MiniCalcLexer.g4" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -657,7 +638,7 @@
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="927" />
-    <option name="height" value="1053" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -683,6 +664,91 @@
               <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+              <item name="minicalc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+              <item name="minicalc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="language-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="language-playground" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -690,16 +756,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -713,7 +780,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MiniCalcLexerTest">
+  <component name="RunManager" selected="Kotlin.examples.MainKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -853,8 +920,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MiniCalcLexerTest" />
         <item itemvalue="Kotlin.examples.MainKt" />
+        <item itemvalue="JUnit.MiniCalcLexerTest" />
         <item itemvalue="Gradle.language-playground [build]" />
         <item itemvalue="Gradle.language-playground [clean]" />
         <item itemvalue="Gradle.language-playground [generateGrammarSource]" />
@@ -890,13 +957,17 @@
       <option name="project" value="LOCAL" />
       <updated>1530155655658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixing git">
+      <created>1530155790380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530155790380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MiniCalcLexerTest - 2018.03.24 at 20h 08m 55s.xml">
-      <configuration name="MiniCalcLexerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MiniCalcLexerTest - 2018.03.24 at 20h 10m 52s.xml">
       <configuration name="MiniCalcLexerTest" configurationId="JUnit" />
     </history-entry>
@@ -924,9 +995,13 @@
     <history-entry file="MiniCalcLexerTest - 2018.06.27 at 20h 13m 47s.xml">
       <configuration name="MiniCalcLexerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MiniCalcLexerTest - 2018.06.27 at 20h 17m 32s.xml">
+      <configuration name="MiniCalcLexerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -937,15 +1012,15 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27657267" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3394794" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19479801" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1615938" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.20607375" />
       <window_info anchor="bottom" id="ANTLR Preview" order="7" />
-      <window_info anchor="right" id="Gradle" order="4" visible="true" weight="0.21693414" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.4449489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -968,7 +1043,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="Writing tests" />
     <MESSAGE value="Working version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working version" />
+    <MESSAGE value="Fixing git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing git" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1159,26 +1235,11 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/MiniCalcLexer.tokens" />
     <entry file="file://$PROJECT_DIR$/generated-src/antlr/main/net/doubov/minicalc/MiniCalcLexer.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.1/19a08f261dc2b7e1bc58c8f1038f766dccade74c/antlr4-4.5.1.jar!/org/antlr/v4/runtime/ANTLRInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/io/StringReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.1/19a08f261dc2b7e1bc58c8f1038f766dccade74c/antlr4-4.5.1.jar!/org/antlr/v4/runtime/Vocabulary.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1196,10 +1257,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/SMLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/MiniCalcLexer.tokens">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.1/19a08f261dc2b7e1bc58c8f1038f766dccade74c/antlr4-4.5.1.jar!/org/antlr/v4/runtime/ANTLRInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.1/19a08f261dc2b7e1bc58c8f1038f766dccade74c/antlr4-4.5.1.jar!/org/antlr/v4/runtime/Vocabulary.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/MiniCalcLexer.tokens">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/MiniCalcLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/MiniCalcLexer.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/SMLexer.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#18#196#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1210,59 +1329,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/antlr/net/doubov/minicalc/MiniCalcLexer.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/MiniCalcLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#390#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/MiniCalcLexer.tokens">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated-src/main/antlr/net/doubov/minicalc/SMLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="e#18#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MiniCalcLexerTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="420">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#186#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
