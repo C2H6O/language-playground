@@ -780,7 +780,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.examples.MainKt">
+  <component name="RunManager" selected="JUnit.MiniCalcLexerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -920,8 +920,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.examples.MainKt" />
         <item itemvalue="JUnit.MiniCalcLexerTest" />
+        <item itemvalue="Kotlin.examples.MainKt" />
         <item itemvalue="Gradle.language-playground [build]" />
         <item itemvalue="Gradle.language-playground [clean]" />
         <item itemvalue="Gradle.language-playground [generateGrammarSource]" />
