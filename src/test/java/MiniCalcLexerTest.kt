@@ -90,4 +90,64 @@ class MiniCalcLexerTest {
         )
     }
 
+    @Test
+    fun `parse string with newline escape`() {
+        val code = "\"hi!\\n\""
+        assertEquals(
+                listOf("STRING_OPEN", "STRING_CONTENT", "ESCAPE_NEWLINE", "STRING_CLOSE", "EOF"),
+                tokensNames(lexerForCode(code))
+        )
+    }
+
+    @Test
+    fun `parse string with slash escape`() {
+        val code = "\"hi!\\\\\""
+        assertEquals(
+                listOf("STRING_OPEN", "STRING_CONTENT", "ESCAPE_SLASH", "STRING_CLOSE", "EOF"),
+                tokensNames(lexerForCode(code))
+        )
+    }
+
+    @Test
+    fun `parse string with delimiter escape`() {
+        val code = "\"hi!\\\"\""
+        assertEquals(
+                listOf("STRING_OPEN", "STRING_CONTENT", "ESCAPE_STRING_DELIMITER", "STRING_CLOSE", "EOF"),
+                tokensNames(lexerForCode(code))
+        )
+    }
+
+    @Test
+    fun `parse string with sharp escape`() {
+        val code = "\"hi!\\#\""
+        assertEquals(
+                listOf("STRING_OPEN", "STRING_CONTENT", "ESCAPE_SHARP", "STRING_CLOSE", "EOF"),
+                tokensNames(lexerForCode(code))
+        )
+    }
+
+    @Test
+    fun `parse string with interpolation`() {
+        val code = "\"hi #{name}. This is a number: #{5 * 4}\""
+        assertEquals(
+                listOf(
+                        "STRING_OPEN",
+                        "STRING_CONTENT",
+                        "INTERPOLATION_OPEN",
+                        "ID",
+                        "INTERPOLATION_CLOSE",
+                        "STRING_CONTENT",
+                        "INTERPOLATION_OPEN",
+                        "INTLIT",
+                        "ASTERISK",
+                        "INTLIT",
+                        "INTERPOLATION_CLOSE",
+                        "STRING_CLOSE",
+                        "EOF"
+                ),
+                tokensNames(lexerForCode(code))
+        )
+    }
+
+
 }
