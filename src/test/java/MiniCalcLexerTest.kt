@@ -1,4 +1,3 @@
-import net.doubov.minicalc.MiniCalcLexer
 import org.antlr.v4.runtime.ANTLRInputStream
 import org.junit.Test
 import java.io.StringReader

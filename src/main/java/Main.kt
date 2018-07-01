@@ -1,6 +1,3 @@
-package examples
-
-import net.doubov.minicalc.MiniCalcLexer
 import org.antlr.v4.runtime.ANTLRInputStream
 import org.antlr.v4.runtime.Token
 import java.io.FileInputStream
